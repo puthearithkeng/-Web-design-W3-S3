@@ -1,0 +1,76 @@
+body {
+    font-family:Josefin Sans ;
+    display: flex;
+    justify-content: center;
+    margin: 110px;
+}
+
+#box {
+    background-color: aqua;
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+    box-shadow: 10px 20px 30px rgb(2, 200, 250);
+}
+
+img {
+    display: flex;
+    border-radius: 50% ;
+    width: 80px;
+    height: 80px;
+    margin: 30px auto;
+}
+
+h2 , #pro {
+    display: flex;
+    justify-content: center;
+    margin : 0px;
+} 
+
+#follow > div {
+ margin: 0px auto;
+}
+
+#follow{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr) ;
+    grid-template-rows: repeat(2 , 30px) ;
+}
+
+#describe {
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#icon > a >svg {
+    width: 20px;
+    height: 20px;
+    margin-top: 0px;
+}
+
+#icon {
+    display: flex;
+    gap: 20px;
+    justify-content: center;  
+    margin-bottom: 40px;
+}
+#button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: none;
+    background-color: darkblue;
+    color: aqua;
+}
+
+button:hover {
+    background-color: rgb(3, 4, 51);
+}

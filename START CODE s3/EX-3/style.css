@@ -1,0 +1,16 @@
+/* TODO */
+button {
+    margin: 10px 10px;
+    width: 200px;
+    height: 100px;
+    border-radius: 30px;
+    color: aliceblue;
+    background-color: rgb(237, 55, 237);
+    font-size: 30px;
+    border-color: rgb(208, 62, 194);
+}
+
+button:hover {
+    background-color: rgb(122, 5, 97);
+    cursor: pointer;
+}
